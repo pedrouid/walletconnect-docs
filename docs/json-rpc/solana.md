@@ -78,7 +78,11 @@ This method returns a signature for the provided instuctions to be signed target
 				"pubkey": "AqP3MyNwDP4L1GJKYhzmaAUdrjzpqJUZjahM7kHpgavm"
 			}]
 		}],
-		"recentBlockhash": "2bUz6wu3axM8cDDncLB5chWuZaoscSjnoMD2nVvC1swe"
+		"recentBlockhash": "2bUz6wu3axM8cDDncLB5chWuZaoscSjnoMD2nVvC1swe",
+		"partialSignatures": [{
+			"signature": "",
+                        "pubkey": ""
+		}],
 	}
 }
 
@@ -86,6 +90,8 @@ This method returns a signature for the provided instuctions to be signed target
 {
 	"id": 1,
 	"jsonrpc": "2.0",
-	"result":  "2Lb1KQHWfbV3pWMqXZveFWqneSyhH95YsgCENRWnArSkLydjN1M42oB82zSd6BBdGkM9pE6sQLQf1gyBh8KWM2c4"
-}
+	"result":  {
+		"signature": "2Lb1KQHWfbV3pWMqXZveFWqneSyhH95YsgCENRWnArSkLydjN1M42oB82zSd6BBdGkM9pE6sQLQf1gyBh8KWM2c4",
+		"pubkey": ""
+	}
 ```
